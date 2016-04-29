@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C44957011CD42A6C00375530 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C44957001CD42A6C00375530 /* main.cpp */; };
+		C44957081CD42B1200375530 /* tinydl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C44957071CD42B1200375530 /* tinydl.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		C44956FD1CD42A6C00375530 /* tinydl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tinydl; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44957001CD42A6C00375530 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C44957071CD42B1200375530 /* tinydl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinydl.cpp; sourceTree = "<group>"; };
+		C44957091CD42B5400375530 /* twospirals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = twospirals.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				C44957001CD42A6C00375530 /* main.cpp */,
+				C44957091CD42B5400375530 /* twospirals.h */,
+				C44957071CD42B1200375530 /* tinydl.cpp */,
 			);
 			path = tinydl;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C44957011CD42A6C00375530 /* main.cpp in Sources */,
+				C44957081CD42B1200375530 /* tinydl.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
