@@ -1,4 +1,3 @@
-# tinydl
 #Welcome to the TinyDL - a very small educational neural network simulator
 
 Many deep learning and neural network simulators have been written. Many of them in C++. This one is was created to conduct educational  experiments, which is why it is very small, configurable and extendable. You can create easily feedforward networks, recurrent networks convolutional neural networks for classification and regression.
